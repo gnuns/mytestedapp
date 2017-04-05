@@ -10,5 +10,9 @@ describe('CalcService', function() {
       assert.equal(CalcService.sum(8, -3), 5);
       done();
     });
+    it('should return 82 for a=0 and b=82', function(done) {
+      assert.equal(CalcService.sum(0, 82), 82);
+      done();
+    });
   });
 });
