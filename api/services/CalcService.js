@@ -1,4 +1,4 @@
 
-exports.sum = function sum(a, b) {
-	return parseInt(a) + parseInt(b);
+exports.sum = function sum(...numbers) {
+	return numbers.reduce((prev, cur) => prev + cur, 0);
 };

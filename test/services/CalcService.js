@@ -11,7 +11,11 @@ describe('CalcService', function() {
       done();
     });
     it('should return 82 for a=0 and b=82', function(done) {
-      assert.equal(CalcService.sum(0, 82), 82);
+      assert.equal(CalcService.sum(0, 82), 82 );
+      done();
+    });
+    it('should return 82 for a=80, b=0, c=2', function(done) {
+      assert.equal(CalcService.sum(80, 0, 2), 82 );
       done();
     });
   });
