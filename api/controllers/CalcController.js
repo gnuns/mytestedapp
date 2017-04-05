@@ -8,7 +8,7 @@
 exports.sum = function sum(req, res) {
 	let params = req.params.all();
 	if (!params.a || !params.b) {
-		return res.badRequest('we need a and b != 0');
+		return res.badRequest('we need a and b');
 	}
 	return res.json({
 		a: params.a,
