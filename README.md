@@ -1,3 +1,3 @@
-# mytestedapp
+# myTestedApp
 
-a [Sails](http://sailsjs.org) application
+a simple [Sails](http://sailsjs.org) application with tests
